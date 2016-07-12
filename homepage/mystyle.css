@@ -1,0 +1,46 @@
+*{
+	font-family: "Source Sans Pro", sans-serif;
+	max-width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+nav {
+    border-top: 1px solid #F7F0EF;
+    border-bottom: 1px solid #EFEAEA;
+    position: relative;
+    margin-top: 30px;
+    background-color: white;
+    /*box-shadow: 10px 10px 5px #888888;*/
+} 
+nav:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.navlink:link{
+	position:absolute;
+	top:35px;
+	color:grey;
+	font-size: 15px;
+	background: white;
+	text-decoration: none;
+}
+.navlink:hover{
+	color:white;
+	background: rgb(35,52,69);
+}
+.footerpic{
+	height: 20px;
+}
+.footpic{
+	margin-top: 20px;
+	margin-right: 10px;
+}
+td{
+	width:200px;
+}
+table{
+	border-spacing: 70px;
+    border-collapse: separate;
+}
